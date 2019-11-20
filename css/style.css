@@ -5,11 +5,12 @@ header{
     height: 100px;
 }
 
-nav img {
+header nav img {
     float: left;
     margin-top: 30 px;
     margin-bottom: 30px;
-    padding: 15px;
+    padding: 12px;
+    margin-left:400px;
   }
 
 nav ul li{
@@ -20,16 +21,40 @@ nav ul li{
     margin-right: 40px;
 }
 
-div img{
+main div p img{
     padding-top: 25px;
     text-align: center;
 
 }
 
- div{
+div p{
+    padding-top: 25px;
     text-align: center;
-    margin: 50px;
-    
+}
+
+main section img{
+    float: left;
+    margin-left: 437px;
+    margin-right: 20px;
+    padding-top: 20px;
+    margin-bottom: 25px;
+}
+
+main section p{
+    padding-top: 20px;
+    width:420px;
+    overflow-y: auto;
+    height: 100px;
+}
+
+
+footer {
+clear: both;
+background-color: grey;
+margin-top: 25px;
+height: 100px;
 
 }
+
+
 
