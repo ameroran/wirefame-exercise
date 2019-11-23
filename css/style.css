@@ -4,56 +4,100 @@ header{
     background-color: grey;
     height: 100px;
 }
+header nav{
+    width: 960px;
+    margin: 0px auto;
+}
 
 header nav img {
     float: left;
     margin-top: 30 px;
-    margin-bottom: 30px;
-    padding: 12px;
-    margin-left:400px;
+    /* margin-bottom: 30px; */
+    padding-top: 12px;
+    margin-right:30px;
   }
 
-nav ul li{
-    list-style: none;
+header ul li{
+    /* list-style: none; */
     display: inline-block;
-    padding: 15px;
-    margin-top: 25px;
-    margin-right: 40px;
+    /* padding: 15px; */
+    margin-top: 40px;
+    margin-right: 75px;
+    text-decoration: none;
 }
 
-main div p img{
-    padding-top: 25px;
-    text-align: center;
 
+main {
+    width: 960px;
+    margin: 30px auto;
+  }
+
+/* main img{
+    padding-top: 25px;
+    /* padding-top: 25px; */
+    /* text-align: center;
+    margin-left: 400px;
+    width: 955px;
+    height: 445px;  
+} */ 
+
+main ul li{
+    list-style: none;
+    float: left;
+    margin: 30px 30px 30px 0px;
 }
 
-div p{
-    padding-top: 25px;
-    text-align: center;
+main ul li:last-child{
+    margin-right: 0px;
 }
 
 main section img{
     float: left;
-    margin-left: 437px;
+    /* margin-left: 437px;
     margin-right: 20px;
-    padding-top: 20px;
-    margin-bottom: 25px;
+    padding-top: 20px; */
 }
 
+section div {
+    width: 450px;
+    float: right;
+    margin-bottom: 30px;
+  }
+  
 main section p{
-    padding-top: 20px;
+    /* padding-top: 20px; */
     width:420px;
     overflow-y: auto;
-    height: 100px;
+    height: 320px;
+    line-height: 23px;
+    padding-right: 30px;
+    font-style: italic;
 }
 
+button {
+    border: none;
+    padding: 10px 30px;
+    background: #000;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 18px;
+    margin-top: 10px;
+    transition: 350ms;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: rgb(0, 128, 111);
+  }
+  
+  
 
 footer {
-clear: both;
+    clear: both;
 background-color: grey;
 margin-top: 25px;
 height: 100px;
-
+padding-top: 10px;
 }
 
 
